@@ -15,6 +15,11 @@
 		265E8BF61DDC393600EE5F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265E8BF41DDC393600EE5F77 /* LaunchScreen.storyboard */; };
 		265E8C011DDC393600EE5F77 /* DJAutoLayoutButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 265E8C001DDC393600EE5F77 /* DJAutoLayoutButtonTests.m */; };
 		265E8C0C1DDC393600EE5F77 /* DJAutoLayoutButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 265E8C0B1DDC393600EE5F77 /* DJAutoLayoutButtonUITests.m */; };
+		265E8C1B1DDC3A3D00EE5F77 /* icon_addplayer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 265E8C191DDC3A3D00EE5F77 /* icon_addplayer@2x.png */; };
+		265E8C1C1DDC3A3D00EE5F77 /* icon_addplayer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 265E8C1A1DDC3A3D00EE5F77 /* icon_addplayer@3x.png */; };
+		265E8C1F1DDC3B2E00EE5F77 /* UIButton+AutolayoutExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 265E8C1E1DDC3B2E00EE5F77 /* UIButton+AutolayoutExtension.m */; };
+		265E8C221DDC5E2700EE5F77 /* icon_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 265E8C201DDC5E2700EE5F77 /* icon_arrow@2x.png */; };
+		265E8C231DDC5E2700EE5F77 /* icon_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 265E8C211DDC5E2700EE5F77 /* icon_arrow@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		265E8C071DDC393600EE5F77 /* DJAutoLayoutButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJAutoLayoutButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		265E8C0B1DDC393600EE5F77 /* DJAutoLayoutButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJAutoLayoutButtonUITests.m; sourceTree = "<group>"; };
 		265E8C0D1DDC393600EE5F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265E8C191DDC3A3D00EE5F77 /* icon_addplayer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_addplayer@2x.png"; sourceTree = "<group>"; };
+		265E8C1A1DDC3A3D00EE5F77 /* icon_addplayer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_addplayer@3x.png"; sourceTree = "<group>"; };
+		265E8C1D1DDC3B2E00EE5F77 /* UIButton+AutolayoutExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AutolayoutExtension.h"; sourceTree = "<group>"; };
+		265E8C1E1DDC3B2E00EE5F77 /* UIButton+AutolayoutExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AutolayoutExtension.m"; sourceTree = "<group>"; };
+		265E8C201DDC5E2700EE5F77 /* icon_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow@2x.png"; sourceTree = "<group>"; };
+		265E8C211DDC5E2700EE5F77 /* icon_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +116,12 @@
 				265E8BEA1DDC393600EE5F77 /* AppDelegate.m */,
 				265E8BEC1DDC393600EE5F77 /* ViewController.h */,
 				265E8BED1DDC393600EE5F77 /* ViewController.m */,
+				265E8C1D1DDC3B2E00EE5F77 /* UIButton+AutolayoutExtension.h */,
+				265E8C1E1DDC3B2E00EE5F77 /* UIButton+AutolayoutExtension.m */,
+				265E8C201DDC5E2700EE5F77 /* icon_arrow@2x.png */,
+				265E8C211DDC5E2700EE5F77 /* icon_arrow@3x.png */,
+				265E8C191DDC3A3D00EE5F77 /* icon_addplayer@2x.png */,
+				265E8C1A1DDC3A3D00EE5F77 /* icon_addplayer@3x.png */,
 				265E8BEF1DDC393600EE5F77 /* Main.storyboard */,
 				265E8BF21DDC393600EE5F77 /* Assets.xcassets */,
 				265E8BF41DDC393600EE5F77 /* LaunchScreen.storyboard */,
@@ -207,6 +224,7 @@
 				TargetAttributes = {
 					265E8BE21DDC393600EE5F77 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YKG5S27K2D;
 						ProvisioningStyle = Automatic;
 					};
 					265E8BFB1DDC393600EE5F77 = {
@@ -246,9 +264,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265E8C1B1DDC3A3D00EE5F77 /* icon_addplayer@2x.png in Resources */,
 				265E8BF61DDC393600EE5F77 /* LaunchScreen.storyboard in Resources */,
 				265E8BF31DDC393600EE5F77 /* Assets.xcassets in Resources */,
 				265E8BF11DDC393600EE5F77 /* Main.storyboard in Resources */,
+				265E8C1C1DDC3A3D00EE5F77 /* icon_addplayer@3x.png in Resources */,
+				265E8C231DDC5E2700EE5F77 /* icon_arrow@3x.png in Resources */,
+				265E8C221DDC5E2700EE5F77 /* icon_arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +297,7 @@
 			files = (
 				265E8BEE1DDC393600EE5F77 /* ViewController.m in Sources */,
 				265E8BEB1DDC393600EE5F77 /* AppDelegate.m in Sources */,
+				265E8C1F1DDC3B2E00EE5F77 /* UIButton+AutolayoutExtension.m in Sources */,
 				265E8BE81DDC393600EE5F77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YKG5S27K2D;
 				INFOPLIST_FILE = DJAutoLayoutButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dove.DJAutoLayoutButton;
@@ -435,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YKG5S27K2D;
 				INFOPLIST_FILE = DJAutoLayoutButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dove.DJAutoLayoutButton;
